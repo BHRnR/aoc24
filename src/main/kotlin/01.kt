@@ -16,6 +16,6 @@ fun firstA(): Int {
     return lists().first.zip(lists().second).sumOf { (a, b) -> abs(a - b) }
 }
 
-fun secondB(): Int {
+fun firstB(): Int {
     return lists().first.sumOf { it * lists().second.count { second -> second == it } }
 }
