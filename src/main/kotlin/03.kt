@@ -1,7 +1,7 @@
 import java.io.File
 
-val regex = """mul\(\d{1,3},\d{1,3}\)""".toRegex()
-val input = File("src/main/resources/input3").readText()
+private val regex = """mul\(\d{1,3},\d{1,3}\)""".toRegex()
+private val input = File("src/main/resources/input3").readText()
 
 fun thirdA(): Int {
     return regex.findAll(input)

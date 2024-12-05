@@ -63,6 +63,3 @@ private fun coordsInDirection(coordinates: Pair<Int, Int>, direction: Direction)
         newCoordinates
     }
 }
-
-
-
